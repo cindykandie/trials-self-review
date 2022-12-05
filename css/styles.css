@@ -1,0 +1,44 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+    margin:0;
+}
+nav{
+    position: fixed;
+    background-color: aqua;
+    padding: 15px;
+    text-align: right;
+    width: 100%;
+    z-index: 2;
+    top: 0px;
+}
+nav a{
+    padding: 25px;
+    font-size: 1.7rem;
+}
+#welcome-section{
+    max-height: 100%;
+    background-color: rgb(82, 21, 21);
+    color: whitesmoke;
+    position:relative;
+    height: 100vh;
+}
+#welcome-section h1{
+    text-align: center;
+    font-size: 5rem;
+}
+#projects h2{
+    text-align: center;
+    font-size: 3rem;
+}
+.project-tile {
+    text-align: center;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
